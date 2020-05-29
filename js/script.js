@@ -11,7 +11,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
 
 (function (global) {
 
-var dc = {};
+var dc = {}; 
 
 var homeHtmlUrl = "snippets/home-snippet.html";
 var allCategoriesUrl =
@@ -88,7 +88,7 @@ $ajaxUtils.sendGetRequest(
                                                                                                                 }, // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
-// *** finish **
+// *** finish ***
 
 
 // Builds HTML for the home page based on categories array
